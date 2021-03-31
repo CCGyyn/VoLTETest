@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">volteTest</string>
+    <string name="display_volte_switch">Display volte switch</string>
+</resources>

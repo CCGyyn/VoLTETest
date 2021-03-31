@@ -1,0 +1,24 @@
+android_app {
+    name: "volte",
+
+    srcs: ["**/*.java"],
+    certificate: "platform",
+    platform_apis: true,
+
+    static_libs: [
+        "android-support-v4",
+        "android-support-v7-appcompat",
+    ],
+
+    libs: [
+        "ims-common",
+    ],
+
+    optimize: {
+        enabled: false,
+    },
+    dex_preopt:{
+        enabled:false,
+    },
+
+}
